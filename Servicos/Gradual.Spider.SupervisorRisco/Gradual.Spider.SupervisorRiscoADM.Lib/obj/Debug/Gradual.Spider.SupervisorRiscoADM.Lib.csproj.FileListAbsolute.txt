@@ -1,0 +1,5 @@
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.SupervisorRiscoADM.Lib\bin\Debug\Gradual.Spider.SupervisorRiscoADM.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.SupervisorRiscoADM.Lib\bin\Debug\Gradual.Spider.SupervisorRiscoADM.Lib.pdb
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.SupervisorRiscoADM.Lib\obj\Debug\Gradual.Spider.SupervisorRiscoADM.Lib.csprojResolveAssemblyReference.cache
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.SupervisorRiscoADM.Lib\obj\Debug\Gradual.Spider.SupervisorRiscoADM.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.SupervisorRiscoADM.Lib\obj\Debug\Gradual.Spider.SupervisorRiscoADM.Lib.pdb

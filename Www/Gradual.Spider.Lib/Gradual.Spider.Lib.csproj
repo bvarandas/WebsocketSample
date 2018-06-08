@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36E7B0B8-4157-4564-9D5A-7F2C69A57D0F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gradual.IntranetCorp.Lib</RootNamespace>
+    <AssemblyName>Gradual.IntranetCorp.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gradual.Core.OMS.DropCopy.Lib">
+      <HintPath>..\Gradual.Spider.References\Gradual.Core.OMS.DropCopy.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.Generico.Geral">
+      <HintPath>..\Gradual.Spider.References\Gradual.Generico.Geral.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.OMS.Library">
+      <HintPath>..\Gradual.Spider.References\Gradual.OMS.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.OMS.RoteadorOrdens.Lib">
+      <HintPath>..\Gradual.Spider.References\Gradual.OMS.RoteadorOrdens.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Gradual.Spider.References\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dados\AssessorInfo.cs" />
+    <Compile Include="Dados\BaseInfo.cs" />
+    <Compile Include="Dados\ClienteInfo.cs" />
+    <Compile Include="Dados\ContaBrokerInfo.cs" />
+    <Compile Include="Dados\EsqueciSenhaInfo.cs" />
+    <Compile Include="Dados\GerenciadorPlataformaInfo.cs" />
+    <Compile Include="Dados\LocalidadeInfo.cs" />
+    <Compile Include="Dados\LogSpiderInfo.cs" />
+    <Compile Include="Dados\PlataformaInfo.cs" />
+    <Compile Include="Dados\PlataformaSessaoInfo.cs" />
+    <Compile Include="Dados\RiscoBloqueioInstrumentoInfo.cs" />
+    <Compile Include="Dados\RiscoClienteParametroGrupoInfo.cs" />
+    <Compile Include="Dados\RiscoEnumRegra.cs" />
+    <Compile Include="Dados\RiscoGrupoInfo.cs" />
+    <Compile Include="Dados\RiscoGrupoItemInfo.cs" />
+    <Compile Include="Dados\RiscoLimiteInfo.cs" />
+    <Compile Include="Dados\RiscoParametroClienteInfo.cs" />
+    <Compile Include="Dados\RiscoParametroClienteValorInfo.cs" />
+    <Compile Include="Dados\RiscoParametroInfo.cs" />
+    <Compile Include="Dados\RiscoPermissaoAssociadaInfo.cs" />
+    <Compile Include="Dados\RiscoPermissaoInfo.cs" />
+    <Compile Include="Dados\SinacorInfo.cs" />
+    <Compile Include="Dados\TraderPlataformaInfo.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Mensagens\BuscarOrdensRequest.cs" />
+    <Compile Include="Mensagens\BuscarOrdensResponse.cs" />
+    <Compile Include="Mensagens\GerenciadorPlataformaSalvarResponse.cs" />
+    <Compile Include="Mensagens\PlataformaSalvarResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarBloqueiroInstrumentoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarBloqueiroInstrumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarClienteParametroGrupoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarClienteParametroGrupoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarParametrosClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarParametrosClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesResponse.cs" />
+    <Compile Include="Mensagens\RiscoReceberParametroClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoReceberParametroClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarParametroClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarParametroClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPermissoesAssociadasRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Persistencias\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

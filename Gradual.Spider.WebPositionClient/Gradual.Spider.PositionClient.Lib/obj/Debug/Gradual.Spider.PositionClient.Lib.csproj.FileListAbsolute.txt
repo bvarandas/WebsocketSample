@@ -1,0 +1,12 @@
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.Spider.PositionClient.Lib.dll.config
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.Spider.PositionClient.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.Spider.PositionClient.Lib.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.OMS.Library.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\log4net.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.OMS.Library.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\Gradual.OMS.Library.xml
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\log4net.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\bin\Debug\log4net.xml
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\obj\Debug\Gradual.Spider.PositionClient.Lib.csprojResolveAssemblyReference.cache
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\obj\Debug\Gradual.Spider.PositionClient.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Spider.PositionClient.Lib\obj\Debug\Gradual.Spider.PositionClient.Lib.pdb

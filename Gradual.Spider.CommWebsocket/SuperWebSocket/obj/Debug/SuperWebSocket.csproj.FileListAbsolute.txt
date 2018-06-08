@@ -1,0 +1,14 @@
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperWebSocket.XML
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperWebSocket.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperWebSocket.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\log4net.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.Common.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.SocketBase.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\log4net.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.Common.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.Common.xml
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.SocketBase.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\bin\Debug\SuperSocket.SocketBase.xml
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\obj\Debug\SuperWebSocket.csprojResolveAssemblyReference.cache
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\obj\Debug\SuperWebSocket.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.CommWebsocket\SuperWebSocket\obj\Debug\SuperWebSocket.pdb

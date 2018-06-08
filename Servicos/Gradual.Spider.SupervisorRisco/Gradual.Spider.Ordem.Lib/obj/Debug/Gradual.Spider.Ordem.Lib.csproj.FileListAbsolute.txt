@@ -1,0 +1,7 @@
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\bin\Debug\Gradual.Spider.Ordem.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\bin\Debug\Gradual.Spider.Ordem.Lib.pdb
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\bin\Debug\protobuf-net.dll
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\bin\Debug\protobuf-net.pdb
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\obj\Debug\Gradual.Spider.Ordem.Lib.csprojResolveAssemblyReference.cache
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\obj\Debug\Gradual.Spider.Ordem.Lib.dll
+C:\Dev\Gradual\Gradual.Spider\Servicos\Gradual.Spider.SupervisorRisco\Gradual.Spider.Ordem.Lib\obj\Debug\Gradual.Spider.Ordem.Lib.pdb

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA6C6FBB-639F-4B11-8D70-60CAA4797B42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gradual.Spider.PositionClient.Monitor.Lib</RootNamespace>
+    <AssemblyName>Gradual.Spider.PositionClient.Monitor.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gradual.Core.Spider.OrderFixProcessing.Lib">
+      <HintPath>..\..\Gradual.Spider.References\Gradual.Core.Spider.OrderFixProcessing.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.OMS.Library">
+      <HintPath>F:\Dev\Gradual\Gradual.Spider\Gradual.Spider.References\Gradual.OMS.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.OMS.WebSocket.Lib">
+      <HintPath>..\..\Gradual.Spider.References\Gradual.OMS.WebSocket.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.Spider.CommSocket">
+      <HintPath>..\..\Gradual.Spider.References\Gradual.Spider.CommSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.Spider.DataSync.Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Gradual.Spider.References\Gradual.Spider.DataSync.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Gradual.Spider.SupervisorRisco.Lib">
+      <HintPath>..\..\Gradual.Spider.References\Gradual.Spider.SupervisorRisco.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Gradual.Spider.References\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Gradual.Spider.References\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>..\..\Gradual.Spider.References\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>..\..\Gradual.Spider.References\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>..\..\Gradual.Spider.References\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cors\CorsBehaviorAttribute.cs" />
+    <Compile Include="Cors\CorsDispatchMessageInspector.cs" />
+    <Compile Include="Cors\CorsFormatter.cs" />
+    <Compile Include="Cors\CorsInvoker.cs" />
+    <Compile Include="Dados\Enums.cs" />
+    <Compile Include="Dados\OperacoesIntradayInfo.cs" />
+    <Compile Include="Dados\OperacoesIntradayIntranetInfo.cs" />
+    <Compile Include="Dados\PositionClientSymbolInfo.cs" />
+    <Compile Include="Dados\RiscoResumidoInfo.cs" />
+    <Compile Include="IPositionClientRiscoResumido.cs" />
+    <Compile Include="IServicoPositionClientMonitor.cs" />
+    <Compile Include="IServicoRestOperacoesIntraday.cs" />
+    <Compile Include="IServicoRiscoResumidoIntranet.cs" />
+    <Compile Include="Message\BuscarOperacoesIntradayRequest.cs" />
+    <Compile Include="Message\BuscarOperacoesIntradayResponse.cs" />
+    <Compile Include="Message\BuscarPositionClientRequest.cs" />
+    <Compile Include="Message\BuscarPositionClientResponse.cs" />
+    <Compile Include="Message\BuscarRiscoResumidoIntranetRESTRequest.cs" />
+    <Compile Include="Message\BuscarRiscoResumidoRequest.cs" />
+    <Compile Include="Message\BuscarRiscoResumidoResponse.cs" />
+    <Compile Include="IServicoRestRiscoResumido.cs" />
+    <Compile Include="Message\BuscarRiscoResumidoRESTRequest.cs" />
+    <Compile Include="Message\MessagePositionClientArgs.cs" />
+    <Compile Include="Message\MessageRiscoResumidoArgs.cs" />
+    <Compile Include="Message\SessionMessagePostionClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SuperWebSocket\SuperWebSocket.csproj">
+      <Project>{2dc79e40-bb70-4f6a-b378-905f2fbc6e97}</Project>
+      <Name>SuperWebSocket</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDA75678-45C5-4C7B-B7F0-7513BE9C85D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gradual.Spider.LimiteRestricao.Lib</RootNamespace>
+    <AssemblyName>Gradual.Spider.LimiteRestricao.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gradual.OMS.Library">
+      <HintPath>..\..\..\Gradual.Spider.References\Gradual.OMS.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dados\AssociacaoClienteRiscoInfo.cs" />
+    <Compile Include="Dados\BaseInfo.cs" />
+    <Compile Include="Dados\BloqueioInstrumentoInfo.cs" />
+    <Compile Include="Dados\ClienteParametroBMFInstrumentoInfo.cs" />
+    <Compile Include="Dados\ClienteParametroLimiteBMFInfo.cs" />
+    <Compile Include="Dados\EnumRiscoRegra.cs" />
+    <Compile Include="Dados\GrupoInfo.cs" />
+    <Compile Include="Dados\GrupoItemInfo.cs" />
+    <Compile Include="Dados\LogSpiderInfo.cs" />
+    <Compile Include="Dados\RiscoContaMasterFilhoInfo.cs" />
+    <Compile Include="Dados\RiscoOperadorInfo.cs" />
+    <Compile Include="Dados\RiscoPlataformaAssessorInfo.cs" />
+    <Compile Include="Dados\RiscoPlataformaClienteInfo.cs" />
+    <Compile Include="Dados\RiscoPlataformaContaMasterInfo.cs" />
+    <Compile Include="Dados\RiscoPlataformaInfo.cs" />
+    <Compile Include="Dados\RiscoPlataformaOperadorInfo.cs" />
+    <Compile Include="Dados\RiscoRestricaoAtivoInfo.cs" />
+    <Compile Include="Dados\RiscoRestricaoGlobalInfo.cs" />
+    <Compile Include="Dados\RiscoRestricaoGrupoInfo.cs" />
+    <Compile Include="Dados\RiscoMonitoramentoInfo.cs" />
+    <Compile Include="Dados\ParametroAlavancagemInfo.cs" />
+    <Compile Include="Dados\RiscoBloqueioInstrumentoInfo.cs" />
+    <Compile Include="Dados\RiscoClienteBloqueioRegraInfo.cs" />
+    <Compile Include="Dados\RiscoClienteParametroGrupoInfo.cs" />
+    <Compile Include="Dados\RiscoEnumRegra.cs" />
+    <Compile Include="Dados\RiscoGrupoInfo.cs" />
+    <Compile Include="Dados\RiscoGrupoItemInfo.cs" />
+    <Compile Include="Dados\RiscoLimiteInfo.cs" />
+    <Compile Include="Dados\RiscoParametroClienteInfo.cs" />
+    <Compile Include="Dados\RiscoParametroClienteValorInfo.cs" />
+    <Compile Include="Dados\RiscoParametroInfo.cs" />
+    <Compile Include="Dados\RiscoPermissaoAssociadaInfo.cs" />
+    <Compile Include="Dados\RiscoPermissaoInfo.cs" />
+    <Compile Include="Dados\RiscoRegraGrupoItemInfo.cs" />
+    <Compile Include="Dados\RiscoTravaExposicaoInfo.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="IServicoSpiderLimiteRestricao.cs" />
+    <Compile Include="IServicoSpiderPlataforma.cs" />
+    <Compile Include="Mensagens\RiscoInserirLimiteBMFInstrumentoRequest.cs" />
+    <Compile Include="Mensagens\RiscoInserirLimiteBMFInstrumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoInserirLimiteClienteBMFRequest.cs" />
+    <Compile Include="Mensagens\RiscoInserirLimiteClienteBMFResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarBloqueiroInstrumentoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarBloqueiroInstrumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarClienteParametroGrupoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarClienteParametroGrupoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarGrupoItemRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarGrupoItemResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarGruposRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarGruposResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarLimiteAlocadoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarLimiteAlocadoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarLimiteBMFRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarLimiteBMFResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarOperadorResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarParametrosClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarParametrosClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarPermissoesResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarPlataformaResponse.cs" />
+    <Compile Include="Mensagens\RiscoRemoveLimiteBMFInstrumentoRequest.cs" />
+    <Compile Include="Mensagens\RiscoRemoveLimiteBMFInstrumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoRemoveLimiteBMFRequest.cs" />
+    <Compile Include="Mensagens\RiscoRemoveLimiteBMFResponse.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaAssessorRequest.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaAssessorResponse.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaContaMasterRequest.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaContaMasterResponse.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaOperadorRequest.cs" />
+    <Compile Include="Mensagens\RiscoSelecionarPlataformaOperadorResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarRegraGrupoItemRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarRegraGrupoItemResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoAtivoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoAtivoResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoGlobalRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoGlobalResponse.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoGrupoRequest.cs" />
+    <Compile Include="Mensagens\RiscoListarRestricaoGrupoResponse.cs" />
+    <Compile Include="Mensagens\RiscoReceberParametroClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoReceberParametroClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoRemoverBloqueioInstumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoRemoverClienteBloqueioRequest.cs" />
+    <Compile Include="Mensagens\RiscoRemoverGrupoRequest.cs" />
+    <Compile Include="Mensagens\RiscoRemoverGrupoResponse.cs" />
+    <Compile Include="Mensagens\RiscoRemoverRegraGrupoItemRequest.cs" />
+    <Compile Include="Mensagens\RiscoRemoverRegraGrupoItemResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarBloqueioInstrumentoRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarBloqueioInstrumentoResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarGrupoItemRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarGrupoItemResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarParametroClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarParametroClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPermissoesAssociadasRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaAssessorRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaAssessorResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaClienteRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaClienteResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaContaMasterRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaContaMasterResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaOperadorRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarPlataformaOperadorResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRegraGrupoItemRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRegraGrupoItemResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoAtivoRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoAtivoResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoGlobalRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoGlobalResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoGrupoRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarRestricaoGrupoResponse.cs" />
+    <Compile Include="Mensagens\RiscoSalvarTravaExposicaoRequest.cs" />
+    <Compile Include="Mensagens\RiscoSalvarTravaExposicaoResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

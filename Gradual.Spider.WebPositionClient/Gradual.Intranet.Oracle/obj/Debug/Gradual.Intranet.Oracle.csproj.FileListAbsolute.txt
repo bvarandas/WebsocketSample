@@ -1,0 +1,5 @@
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Intranet.Oracle\bin\Debug\Gradual.Intranet.Oracle.dll.config
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Intranet.Oracle\bin\Debug\Gradual.Intranet.Oracle.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Intranet.Oracle\bin\Debug\Gradual.Intranet.Oracle.pdb
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Intranet.Oracle\obj\Debug\Gradual.Intranet.Oracle.dll
+C:\Dev\Gradual\Gradual.Spider\Gradual.Spider.WebPositionClient\Gradual.Intranet.Oracle\obj\Debug\Gradual.Intranet.Oracle.pdb
